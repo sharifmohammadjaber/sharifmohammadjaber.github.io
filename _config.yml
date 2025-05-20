@@ -4,6 +4,10 @@ lang: ar
 markdown: kramdown
 theme: minima
 permalink: pretty
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:title/
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
